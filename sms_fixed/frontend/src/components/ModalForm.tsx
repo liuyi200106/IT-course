@@ -74,7 +74,7 @@ export const ModalForm: React.FC<ModalFormProps> = ({
   size = 'md',
   theme = 'green',
 }) => {
-  const colors = themeColors[theme];
+  
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
